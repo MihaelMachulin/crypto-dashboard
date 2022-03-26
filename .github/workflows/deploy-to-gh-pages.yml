@@ -16,8 +16,6 @@ jobs:
         run: |
           npm install
           npm run-script build -- --base='/crypto-dashboard/'
-        env:
-          VITE_APP_KEY: ${{ secrets.VITE_APP_KEY }}
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.2.5
