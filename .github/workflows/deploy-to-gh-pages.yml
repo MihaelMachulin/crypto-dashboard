@@ -15,7 +15,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          vite build -- --base='/crypto-dashboard/'
+          npm run-script build -- --base='/crypto-dashboard/'
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.2.5
