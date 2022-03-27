@@ -5,12 +5,14 @@
 ### Stack  
 
 - Vite React App
-- Axios
+- Axios, Cors, DotEnv, Express
 
-### Uset Features
+### Used Features
 
+- Backend script on Heroku
+  - Hidden environment variables
+- Auto build & deploy with GitHub Actions
 - Two REST API sources 
   - For Crypto currency conversion
-  - For Crypto news feed
-- API KEY in environment variables
+  - For Crypto news-feed
 - React Hooks
