@@ -8,6 +8,8 @@ const app = express()
 
 app.use(cors())
 
+app.get('/', (req, res) => res.send('It`s alive!!'));
+
 app.get('/convert', (req, res) => {
     console.log(req)
     const options = {
@@ -48,4 +50,4 @@ app.get('/news', (req, res) => {
     });
 })
 
-app.listen(8000, () => console.log(`Server is running on port ${PORT}`))
+app.listen(process.env.PORT || PORT, () => console.log(`Server is running on port ${PORT}`))
