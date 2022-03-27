@@ -17,7 +17,7 @@ const CurrencyConverter = () => {
     const convert = () => {
         const options = {
             method: 'GET',
-            url: 'http://localhost:8000/convert',
+            url: 'https://crypto-dashboard-2022.herokuapp.com/convert',
             params: {from_currency: chosenPrimaryCurrency, function: 'CURRENCY_EXCHANGE_RATE', to_currency: chosenSecondaryCurrency},
         };
 

@@ -7,7 +7,7 @@ const NewsFeed = () => {
     useEffect(() => {
         const options = {
             method: 'GET',
-            url: 'http://localhost:8000/news'
+            url: 'https://crypto-dashboard-2022.herokuapp.com/news'
         }
 
         axios.request(options).then(response => {
