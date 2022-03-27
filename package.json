@@ -3,12 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start:backend": "nodemon index.js",
+    "start:frontend": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -17,4 +22,3 @@
     "vite": "^2.8.0"
   }
 }
-
